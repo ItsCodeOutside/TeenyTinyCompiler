@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Musings": {
+      "commandName": "Project",
+      "commandLineArgs": "hello.tiny"
+    }
+  }
+}

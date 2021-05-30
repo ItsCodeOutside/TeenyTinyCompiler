@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>TeenyTinyCompiler.Musings</RootNamespace>
+	<StartupObject>TeenyTinyCompiler.Musings.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="hello.tiny">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
